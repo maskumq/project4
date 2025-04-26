@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(149, 146, 175);
+    color: white;
+    margin: 0;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom:20px;
+    align-items: center;
+}					
+header img{
+    width:280px;
+    height: 100px;
+}
+
+
+.button {
+    background-color: rgb(118, 118, 168);
+    padding:15px;
+    font-weight: 700;
+    font-size: 24px;
+    color: blueviolet;
+    border-radius: 10px;
+    text-decoration: nome;
+    border-radius:  30px;
+}
+
+nav {
+  border-top: 5px dotted  black ;  
+  border-bottom:5px dotted black;
+  padding: 25px 100px 25px 95px;
+  display: flex;
+  justify-content: space-around ;
+  border-radius: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(3, 1, 5);
+    background-color: rgb(117, 117, 207);
+    margin-left: 5px;
+    border-radius:30px;
+    padding: 15px ;
+}
+h1 {
+ font-weight:700;
+ font-size:36px;
+ text-align: center;
+ color:rgb(44, 44, 121);
+ margin-bottom:15px;
+ margin-top:45px;
+}
+
+p {
+    font-weight:400;
+    font-size:20px ;
+    color:black;
+}
+
+.info {
+  display:flex; 
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin:0 auto;
+}
+
+article {
+   background-color: rgb(149, 149, 202);
+   padding: 15px 45px 30px 45px;
+   width: 400px;
+   margin: 20px;
+}
+
+article h2{
+   font-weight:700;
+   font-size:24px;
+   color:black;
+}
+
+.article-but {
+    text-decoration: none;
+    background:#2fa3b4;
+    font-weight:700;
+    font-size: 24px;
+    text-align: center;
+    color:blue;
+    padding:10px 71px 10px 71px;		
+}
+
+footer {
+   background:#9c85c5;
+   display:flex;
+   align-items: center;
+   padding:45px 0px 45px 70px;
+   margin-top:20px;
+}
+
+footer a {
+  margin-right: 50px;
+}
+
+footer p {
+ font-size: 24px;
+ font-weight:700;
+ font-weight:24px;
+ color:rgb(68, 18, 114);
+}
+
+.abou{
+    display:flex;
+    max-width:1000px;
+    margin: 0 auto;
+}
+
+.abou li{
+    font-weight:400;
+    font-size:18px;
+    color:black;
+    margin-bottom:25px;
+}
+
+.about ing{
+    border: 5px solod blueviolet ;
+    width: 385px;
+    height:385px;
+    margin-left:30px;
+}
